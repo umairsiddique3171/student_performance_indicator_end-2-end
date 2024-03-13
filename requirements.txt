@@ -1,0 +1,8 @@
+pandas 
+numpy
+matplotlib
+-e .
+
+
+# -e . is the indication that setup.py is also there.
+# so when ever requirements.txt  will be executed, setup.py will also be executed to build package.
