@@ -1,7 +1,9 @@
 pandas 
 numpy
 matplotlib
--e .
+seaborn 
+scikit-learn
+# -e .
 
 
 # -e . is the indication that setup.py is also there.
