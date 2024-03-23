@@ -37,8 +37,7 @@ class DataTransformation:
                 ('onehot', OrdinalEncoder())
                 ])
             
-            logging.info(f"Categorical columns: {cat_features}")
-            logging.info(f"Numerical Columns : {num_features}")
+            logging.info("Categorical Columns and Numerical Columns defined")
             
             preprocessor = ColumnTransformer(
                 transformers=[
